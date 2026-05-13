@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="DLLInjector/DLLInjector.csproj" Id="e9ea0e13-d0b2-4db1-9236-db7e8e47ebcc">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+  <Project Path="ModulesDLL/ModulesDLL.csproj" Id="f0d8363e-25be-493d-9dde-a42c89454b55">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>
